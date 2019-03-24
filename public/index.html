@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/todo.js"></script>
+    <script defer src="./js/interact.js"></script>
+    <script src='./js/jquery.js'></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container mt-3">
+        <nav>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> Taskname</span>
+                </div>
+                <input id="taskname" type="text" class="form-control">
+            </div>
+            <div class="form-group mt-0">
+                <input id="desc" type="text" class="form-control" placeholder="Description">
+                <button id="add" class="btn btn-primary mt-2 float-right">ADD</button>
+            </div>
+
+
+        </nav>
+    </div>
+    <hr>
+    <div class="container">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Taskname</th>
+                    <th scope="col">Description</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody id="list">
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+</body>
+
+</html>
