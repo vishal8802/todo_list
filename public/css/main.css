@@ -1,45 +1,42 @@
 nav {
-    margin-left: 20%;
-    margin-right: 20%;
-    height: 40px;
-    transition: height 300ms;
-    overflow: hidden
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 40px;
+  transition: height 300ms;
+  overflow: hidden;
 }
 
 .btn {
-    background-color: #FF8C00;
+  background-color: #ff8c00;
 }
 
 hr {
-    border: 1px solid #FF8C00;
+  border: 1px solid #ff8c00;
 }
 
 .show {
-    height: 160px;
+  height: 160px;
 }
 
 .btn-done {
-    color: lightgray;
-    border: 0px;
-    background: none
+  color: lightgray;
+  border: 0px;
+  background: none;
 }
 
 .btn-done:hover {
-    color: black
+  color: black;
 }
-
-
 
 .fa-trash-alt {
-    color: #8B0000
+  color: #8b0000;
 }
 
-
 .btn-trash {
-    border: 0px;
-    background: none
+  border: 0px;
+  background: none;
 }
 
 .faded {
-    background-color: lightgray
+  background-color: darkgrey;
 }
