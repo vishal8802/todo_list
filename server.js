@@ -45,7 +45,15 @@ app.post('/delete', async (req, res) => {
     console.log('sef')
     res.send('')
 })
-
+app.post('/todo',
+    async (req, res) => {
+        let newItem = await Tasks.create({
+            name: req.body.taskname,
+            name1: req.body.taskname,
+            description: req.body.description
+        })
+        res.send('')
+    })
 
 db.sync()
     .then(() => {
